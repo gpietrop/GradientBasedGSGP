@@ -42,7 +42,12 @@ The considered benchmark problems are:
 
 that are saved in the `dataset` folder.
 
-The code to reproduce the box-plot of the paper, it is sufficient to run:
+To reproduce the box-plot of the paper, it is sufficient to run:
 ```bash
 python3 boxplot.py 
+```
+
+To reproduce the plot of fitness w.r.t. the number of fitness evaluation, it is sufficient to run:
+```bash
+python3 rmse.py 
 ```
